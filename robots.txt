@@ -1,0 +1,9 @@
+User-agent: *
+Sitemap: http://www.kopilan.com/sitemap.xml
+Allow: /index.html (por defecto los buscadores siguen , asi que no hace falta ponerlo)
+Disallow: /kopitemp/
+Disallow: /Arbeloa/
+Disallow: /ILS/
+Disallow: /imagenes/
+Disallow: /ContactoKopilanServiciosGraficos.php
+Disallow: /AvisoLegal.html

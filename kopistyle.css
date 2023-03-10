@@ -1,0 +1,376 @@
+@charset "utf-8";
+
+body {
+	background-image: url(imagenes/degradado.png);
+	background-color: #D5D5D5;
+	background-repeat: repeat-x;
+	width: 850px;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	background-position: top;
+
+}
+      #quickmenu {
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+    #quickmenu ul{
+	padding:0;
+	margin: 0;
+}
+    #quickmenu ul li{ display:inline; border-left:solid 1px #CCCCCC;float:left;text-align:center; }
+    #quickmenu ul li.firstelement{ border:0; border-bottom:solid 1px#CCCCCC; }
+    #quickmenu a{ display:block; background-repeat:no-repeat; background-image:url(http://soraibai.kopilan.com/kopitemp/imagenes/IconosServImpr.png);height: 20px; padding:35px 5px 0px 5px; }
+    #inicioico{background-image:url('http://soraibai.kopilan.com/kopitemp/imagenes/ico1.gif');}
+    #ico1{background-position: center 5px;}
+    #ico2{background-position: center -55px;}
+    #ico3{background-position: center -110px;}
+    #ico4{background-position: center -160px;}
+
+.ul1 {
+	text-align: left;
+	list-style-type: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ulsinicono {
+	list-style-type: none;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+	background-image: url(imagenes/degradadomenu.png);
+	background-repeat: repeat-x;
+	background-color: #9BCE35;
+	background-position: top;
+}
+.menus {
+	color: #FFF;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+	background-color: #2D2D2D;
+	background-image: url(imagenes/menus-sprite-1-2-3.png);
+	background-repeat: repeat-x;
+	background-position: 0px -30px;
+	padding: 2px;
+}
+.menus2 {
+	color: #FFF;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+	background-color: #2D2D2D;
+	background-image: url(imagenes/menus-sprite-1-2-3.png);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	padding: 2px;
+}
+.menu3 {
+	background-color: #939393;
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.servIMG1 {
+	background-image: url(imagenes/servicionimpresion.jpg);
+	background-position: 0px -25px;
+	height: 210px;
+	width: 270px;
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.servIMG2 {
+	background-image: url(imagenes/servicionimpresion.jpg);
+	background-position: 0px -270px;
+	height: 230px;
+	width: 270px;
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.servIMG3 {
+	background-image: url(imagenes/servicionimpresion.jpg);
+	background-position: 0px -541px;
+	height: 270px;
+	width: 270px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.servIMG4 {
+	background-image: url(imagenes/servicionimpresion.jpg);
+	background-position: 0px -810px;
+	height: 270px;
+	width: 270px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.floatderecha {
+	float: right;
+	list-style-type: none;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin-left: 15px;
+}
+.mapa {
+	float: right;
+	list-style-type: none;
+	margin-left: 15px;
+	background-color: #000;
+}
+
+.floatderecha3 {
+	float: right;
+	list-style-type: none;
+	padding-right: 5px;	
+}
+.titulo {
+	font-size: 30px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+}
+.subtitulo {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 17px;
+	letter-spacing: 4px;
+	color: #9BCE35;
+}
+hr {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	color: #FFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+.fondobumer {
+	background-attachment: scroll;
+	background-image: url(imagenes/sine.png);
+}
+
+
+.idioma {
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: right;
+	float: right;
+}
+
+.titulo2 {
+	font-size: 40px;
+	color: #9BCE35;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+}
+h2, h3{
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	margin: 2px;
+
+}
+
+.cajaindex {
+	color: #000;
+	padding-top: 5px;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	background-color: #E6E6E6;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #939393;
+	border-left-color: #939393;
+	font-size: 16px;
+}
+.cajacontenidos{
+	color: #000;
+	padding-top: 5px;
+	text-align: justify;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	background-color: #E6E6E6;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 100px;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #939393;
+	border-left-color: #939393;
+	font-size: 14px;
+}
+.kopindex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-align: center;
+	color: #FFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #2D2D2D;
+	border-left-color: #2D2D2D;
+}
+.titulostexto{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-align: center;
+	color: #FFF;
+	background-color: #424242;
+	background-repeat: repeat-x;
+	background-position: 0px -60px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	background-image: url(imagenes/menus-sprite-1-2-3.png);
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.textobajo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000;
+	font-weight: normal;
+	background-color: #939393;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.textobajo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000;
+	font-weight: normal;
+	background-color: #939393;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+div.celdaizq {color:#000;font-size:12px}
+.celdaizq a:link {color:#000;text-decoration:underline}
+.celdaizq a:visited {color:#000}
+.celdaizq a:hover {background-color:#FFF;text-decoration:none}
+.celdaizq a:active {background-color:#f4d081;color:navy} 
+
+.floatizquierda {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+.textobajo2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000;
+	font-weight: normal;
+	padding-right: 5px;
+}
+.validadores {
+	text-align: center;
+	margin-top: 30px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin-bottom: 300px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#sitemap {
+	overflow:hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+#sitemap ul {
+	list-style:none;
+	padding:0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+}
+#sitemap li {
+	background-color:#FF8000;
+	margin:0 0 -0.1em;
+	min-height:1em;
+	padding:.2em .4em;
+	position:relative;
+	width:9em;
+}
+#sitemap ul ul {
+ font-size:90%;
+ margin-top:-1.4em;
+}
+#sitemap ul ul li {
+	border-top:0.5em solid #fff !important;
+	border-left:0.5em solid #66c;
+	left:10.4em;
+	background-color: #9BCE35;
+	color: #66C;
+}
+#sitemap ul ul ul li {
+	border-color:#FF4A4A;
+	background-color: #85B6B6;
+}
+#sitemap ul ul ul ul li {
+	border-color:#c93;
+	background-color: #6B6B6B;
+}
+#sitemap ul ul ul ul ul li {
+ background:#999;
+ border-color:#c33;
+ color:#fff;
+}
